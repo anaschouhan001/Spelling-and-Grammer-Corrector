@@ -1,7 +1,7 @@
 # Grammar & Spell Checker
 
 A small Flask web app that cleans up text in two passes: spelling first with
-[TextBlob](https://textblob.readthedocs.io/), then grammar with the
+[TextBlob](https://textblob.readthedocs.io/), then grammar with 
 [`prithivida/grammar_error_correcter_v1`](https://huggingface.co/prithivida/grammar_error_correcter_v1)
 seq2seq model from Hugging Face. You can paste text into the page or upload a
 plain-text file, and both the spelling-corrected and grammar-corrected versions
