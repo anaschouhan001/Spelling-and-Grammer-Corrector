@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Hugging Face / TextBlob model caches
+.cache/
+huggingface/
+nltk_data/
+
+# Environment / secrets
+.env
+.env.*
+
+# Editor & tooling artifacts
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# OS artifacts
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Databases
+*.db
+*.sqlite3
